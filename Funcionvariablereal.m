@@ -23,7 +23,7 @@ legend("Dominio (4,+?),Rango(1,+?)");
 
 
 %Dominio de la funcion ..............
-x = -5:0.1:5;
+x = -50:0.1:50;
 %Regla de correspondencia
 fx = (1 + (x.^2));
 %Plotear funcion
@@ -57,14 +57,14 @@ plot(x,fx);
 ylabel(" y ");
 xlabel(" x ");
 title(" Funcion  fx = ((x.^2)+(6 * x)) ");
-legend("Dominio (x E R),Rango(-9,+?)");
+legend("Dominio (x E R),Rango(0,+?)");
 
 
 
 %Dominio de la funcion..............
 z = -50:0.1:50;
 %Regla de correspondencia
-gz=(abs( z.^3));
+gz=(( z.^3));
 %Plotear funcion
 plot(z,gz);
 ylabel(" y ");
