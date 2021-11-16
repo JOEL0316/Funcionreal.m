@@ -18,7 +18,7 @@ plot(x,fx);
 ylabel(" y ");
 xlabel(" x ");
 title(" Funcion  fx = (1 + (sqrt(x-4))) ");
-legend("Dominio (4,+?),Rango(1,+?)");
+legend("Dominio (4,+∞),Rango (1,∞)");
 
 
 
@@ -31,7 +31,7 @@ plot(x,fx);
 ylabel(" y ");
 xlabel(" x ");
 title(" Funcion  fx = (1 + (x.^2)) ");
-legend("Dominio (x E R),Rango(1,+?)");
+legend("Dominio (x E R),Rango(1,+∞)");
 
 
 
@@ -44,7 +44,7 @@ plot(t,ht);
 ylabel(" y ");
 xlabel(" x ");
 title(" Funcion  ht = ( t ./ (2 - t)) ");
-legend("Dominio (t E R\{2}),Rango(-?,+?");
+legend("Dominio (t E R\{2}),Rango(t≠ 0),(-∞,-1) U (-1,∞));
 
 
 
@@ -57,11 +57,11 @@ plot(x,fx);
 ylabel(" y ");
 xlabel(" x ");
 title(" Funcion  fx = ((x.^2)+(6 * x)) ");
-legend("Dominio (x E R),Rango(0,+?)");
+legend("Dominio (x E R),Rango(-9+∞"));
 
 
 
-%Dominio de la funcion..............
+%Dominio de la funcion.............
 z = -50:0.1:50;
 %Regla de correspondencia
 gz=(( z.^3));
@@ -70,7 +70,7 @@ plot(z,gz);
 ylabel(" y ");
 xlabel(" x ");
 title(" Funcion gz = | z^3| ");
-legend("Dominio (Z E R),Rango(0,+?)");
+legend("Dominio (Z E R),Rango(0,+∞"));
 
 
 
@@ -83,7 +83,7 @@ plot(t,ht);
 ylabel(" y ");
 xlabel(" x ");
 title(" Funcion  ht = ((t-1)./(t-2)) ");
-legend("Dominio (t E R\{2}),Rango(-?,+?)");
+legend("Dominio (t E R\{2}),Rango(t≠ 0)..(-∞,1) U (1,∞)");
 
 
 
@@ -96,7 +96,7 @@ plot(x,fx);
 ylabel(" y ");
 xlabel(" x ");
 title(" Funcion  ((2*(x.^2))+(3*x)./(x.^2)+(4*x)+(5)) ");
-legend("Dominio (x E R),Rango(-?,+?)");
+legend("Dominio (x E R),Rango(-∞,∞)");
 
 
 
@@ -109,7 +109,7 @@ plot(x,fx);
 ylabel(" y ");
 xlabel(" x ");
 title(" Funcion  fx = ((x.^4)+(6*(x.^3))+(9*(x.^2))-(1)) ");
-legend("Dominio (x E R),Rango(-1,+?)");
+legend("Dominio (x E R),Rango(-1,+∞)");
 
 
 
