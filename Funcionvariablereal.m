@@ -44,7 +44,7 @@ plot(t,ht);
 ylabel(" y ");
 xlabel(" x ");
 title(" Funcion  ht = ( t ./ (2 - t)) ");
-legend("Dominio (t E R\{2}),Rango(t≠ 0),(-∞,-1) U (-1,∞)");
+legend("Dominio (t E R\{2}),Rango(t≠ 0),(-∞,-1) U (1,∞)");
 
 
 
