@@ -44,7 +44,7 @@ plot(t,ht);
 ylabel(" y ");
 xlabel(" x ");
 title(" Funcion  ht = ( t ./ (2 - t)) ");
-legend("Dominio (t E R\{2}),Rango(t≠ 0),(-∞,-1) U (-1,∞));
+legend("Dominio (t E R\{2}),Rango(t≠ 0),(-∞,-1) U (-1,∞)");
 
 
 
@@ -57,7 +57,7 @@ plot(x,fx);
 ylabel(" y ");
 xlabel(" x ");
 title(" Funcion  fx = ((x.^2)+(6 * x)) ");
-legend("Dominio (x E R),Rango(-9+∞"));
+legend("Dominio (x E R),Rango(-9+∞)");
 
 
 
@@ -70,7 +70,7 @@ plot(z,gz);
 ylabel(" y ");
 xlabel(" x ");
 title(" Funcion gz = | z^3| ");
-legend("Dominio (Z E R),Rango(0,+∞"));
+legend("Dominio (Z E R),Rango(0,+∞)");
 
 
 
